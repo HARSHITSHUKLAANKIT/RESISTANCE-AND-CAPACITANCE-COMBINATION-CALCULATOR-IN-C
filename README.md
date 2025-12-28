@@ -11,3 +11,6 @@ I have tried to make this as dynamic as possible and have tried to take maximum 
 3. Better Code Formatting
 
 In the end, I am always open for suggestion :)
+
+VIEWS COUNT : ![Repo Views](https://komarev.com/ghpvc/?username=HARSHITSHUKLAANKIT&repo=RESISTANCE-AND-CAPACITANCE-COMBINATION-CALCULATOR-IN-C)
+
