@@ -1,9 +1,12 @@
+// CREATED BY HARSHIT SHUKLA ON 28/12/2025
+
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
+#include <string.h> // Included for string comparisons
+#include <stdlib.h> 
 
 int main() 
 {
+	// To clear the screen before the actual program runs
 	#ifdef _WIN32
 		system("cls");
 	#else 
@@ -35,6 +38,7 @@ int main()
 			{
 				scanf("%d",&r[i]);
 			}
+			// Req for series = R1 + R2 + R3 + ... + Rn
 			for(int i=0; i<nr; i++)
 			{
 				req+=r[i];
@@ -59,6 +63,7 @@ int main()
 			{
 				scanf("%d",&r[i]);
 			}
+			// 1/Req for parallel = 1/R1 + 1/R2 + 1/R3 + .... + 1/Rn
 			for(int i=0; i<nr; i++)
 			{
 				req+=1.0/r[i];
@@ -96,7 +101,7 @@ int main()
     				return 0;
 				}
 			}
-			
+			// 1/Ceq for series = 1/C1 + 1/C2 + 1/C3 .... + Cn
 			for(int i=0; i<nc; i++)
 			{
 				
@@ -124,6 +129,7 @@ int main()
 			{
 				scanf("%f",&c[i]);
 			}
+			// Ceq for parallel = C1 + C2 + C3 + .... + Cn
 			for(int i=0; i<nc; i++)
 			{
 				ceq+=c[i];
